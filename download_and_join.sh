@@ -2,7 +2,7 @@
 
 set -e
 
-mkdir down || true
+mkdir -p down
 cd down
 wget -N `cat ../lists`
 cd ..
